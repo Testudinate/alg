@@ -1,2 +1,2 @@
 # alg
-Algorithms and data structures (С++ &amp; Python)
+Alg (С++ &amp; Python)
