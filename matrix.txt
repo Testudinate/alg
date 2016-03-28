@@ -1,0 +1,6 @@
+Найдите матрицу А оператора, который сначала растягивает вектор вдоль оси Ox в 
+два раза, а затем поворачивает его против часовой стрелки на 45 градусов. 
+
+http://www.wolframalpha.com/input/?i=RotationMatrix%5BPi%2F4%5D%2B%7B%7B2,+0%7D,+%7B0,+1%7D%7D%2B(RotationMatrix%5BPi%2F4%5D.%7B%7B2,+0%7D,+%7B0,+1%7D%7D)
+
+RotationMatrix[Pi/4]+{{2, 0}, {0, 1}}+(RotationMatrix[Pi/4].{{2, 0}, {0, 1}})
