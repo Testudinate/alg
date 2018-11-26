@@ -11,7 +11,7 @@ document.forms[0].onsubmit = function(e){
   xhr.open('POST','https://api.voximplant.com/platform_api/StartScenarios/?account_id=2462599&api_key=8745ad52-92dc-48c0-b52b-3bd686e51b13&rule_id=2175969&script_custom_data=+'+userInput);
   
   //var formData = new FormData(document.forms[0]);
-  xhr.setRequestHeader('Content-Type','text/html');
+  xhr.setRequestHeader('Access-Control-Allow-Headers':'application/json');
   
   //xhr.onreadystatechange = fucntion(){
   //  if(xhr.readyState ===4 && xhr.status === 200){
