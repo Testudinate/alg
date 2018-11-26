@@ -2,9 +2,9 @@ var servResponse = document.querySelector('#email-form');
 
 //document.forms.ourForm.onsubmit = function(e){
 document.forms[0].onsubmit = function(e){
-  e.preventDefault();
+  //e.preventDefault();
   var userInput = document.forms[0].dlya_bota.value;
-  userInput = encodeURIComponent(userInput);
+  //userInput = encodeURIComponent(userInput);
   
   var xhr = new XMLHttpRequest();
   
