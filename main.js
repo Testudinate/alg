@@ -1,4 +1,4 @@
-var servResponse = document.querySelector('#Response');
+var servResponse = document.querySelector('email-form');
 
 document.forms.ourForm.onsubmit = function(e){
   e.preventDefault();
