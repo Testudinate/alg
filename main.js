@@ -12,11 +12,11 @@ document.forms.ourForm.onsubmit = function(e){
   var formData = new FormData(document.form.ourForm);
   //xhr.setRequestHeader('Content-Type','application/json');
   
-  xhr.onreadystatechange = fucntion(){
-    if(xhr.readyState ===4 && xhr.status === 200){
-      servResponse.textContent = xhr.responseText; 
-    }
-  }
+  //xhr.onreadystatechange = fucntion(){
+  //  if(xhr.readyState ===4 && xhr.status === 200){
+  //    servResponse.textContent = xhr.responseText; 
+  //  }
+  //}
   xhr.send(formData);
   //xhr.send('dlya_bota=' + userInput);
   
