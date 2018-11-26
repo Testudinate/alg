@@ -3,14 +3,14 @@ var servResponse = document.querySelector('email-form');
 //document.forms.ourForm.onsubmit = function(e){
 document.forms[0].onsubmit = function(e){
   e.preventDefault();
-  var userInput = document.forms.ourForm.dlya_bota.value;
+  var userInput = document.forms[0].dlya_bota.value;
   userInput = encodeURIComponent(userInput);
   
   var xhr = new XMLHttpRequest();
   
   xhr.open('POST','https://api.voximplant.com/platform_api/StartScenarios/?account_id=2462599&api_key=8745ad52-92dc-48c0-b52b-3bd686e51b13&rule_id=2175969&script_custom_data=+'+userInput);
   
-  var formData = new FormData(document.form.ourForm);
+  var formData = new FormData(document.forms[0]);
   //xhr.setRequestHeader('Content-Type','application/json');
   
   //xhr.onreadystatechange = fucntion(){
